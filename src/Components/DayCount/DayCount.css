@@ -1,0 +1,330 @@
+.dayCount_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* height: 100vh; */
+    flex-direction: column;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+
+.topPara {
+    margin-top: 0;
+    margin-bottom: 7vh;
+    font-size: 19px;
+}
+.image_holder_calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    width: 50vw;
+    height: 30vh;
+    margin-bottom: 4vh;
+    border-radius: 25px;
+    /* height: 15vh; */
+}
+.image_holder_calendar img{
+    width :100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.dayCount_innercontainer {
+    /* border: 2px solid black; */
+    width: 50vw;
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 8px 6px 10px #00000029;
+    margin-bottom: 5vh;
+}
+
+.dayCount_innercontainer_sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid rgb(41, 11, 233); */
+    width: 100%;
+    height: 15vh;
+    margin-bottom: 0vh;
+}
+.dayCount_innercontainer_sec2{
+    height: 17vh;
+}
+
+.dayCount_innercontainer_sec input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 2px solid #00000045;
+    width: 100%;
+    height: 35%;
+    cursor: pointer;
+}
+
+.dayCount_innercontainer_sec label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    color: #000000d4 ;
+    margin-bottom: 0;
+
+}
+
+.startDate_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 17vh;
+}
+
+.endDate_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 17vh;
+}
+
+.dayCount_innercontainer_sec button {
+    border-radius: 6px;
+    width: 15vw;
+    height: 7.5vh;
+    font-weight: 600;
+    color: white;
+    background-color: #0b70e7;
+    border: none;
+    margin-top: 2vh;
+}
+
+.dayCount_innercontainer_sec button:hover {
+    box-shadow: 8px 6px 10px #00000073;
+    cursor: pointer;
+}
+
+.calender_buttons {
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 19vh;
+    justify-content: flex-start;
+}
+
+.checkbox_holder {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    height: 7vh;
+    width: 50%;
+}
+
+.checkbox_holder p {
+    /* border: 2px solid black; */
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+    width: 90%;
+}
+.calender_controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    width: 100%;
+}
+.optionTag{
+    height: 80%;
+    font-size: 13px;
+    font-weight: 600;
+    width: 10vw;
+    border-radius: 6px;
+    /* border: 2px solid #00000045; */
+    color: #000000a8;
+}
+.optionTag option{
+    font-size: 13px;
+    font-weight: 600;
+    /* border: 2px solid #00000045; */
+    color: #000000a8;
+}
+
+.checkbox_holder input {
+    width: 10%;
+    height: 30%;
+    /* border: 2px solid red; */
+}
+.checkbox_holder p{
+    color: #000000d4; 
+    margin-top: 0;
+}
+
+.display_count {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: #000000d4 ;
+
+}
+
+.display_count_section1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
+.display_count_section2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+}
+
+.display_count_section1 h3 {
+    width: 90%;
+    /* border: 2px solid black; */
+}
+
+.display_count_section1 p {
+    width: 90%;
+    /* border: 2px solid black; */
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.display_count_section2 h3 {
+    width: 90%;
+    /* border: 2px solid black; */
+}
+
+.display_count_section2 p {
+    width: 90%;
+    /* border: 2px solid black; */
+    margin-bottom: 0;
+    font-size: 15px;
+
+}
+
+#display_count_section2_desc {
+    margin-bottom: 1vh;
+    font-weight: 500;
+}
+
+#display_count_section2_list {
+    line-height: 2;
+    font-weight: 500;
+}
+
+#fromDate {
+    font-weight: 400;
+}
+
+#fromDate span {
+    font-weight: 600;
+}
+.daysInMonth{
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 40%;
+    overflow-y: auto; 
+}
+
+@media(max-width:500px){
+    .topHeader{
+        text-align: center;
+        font-size: 26px;
+        width: 90%;
+    }
+    .topPara{
+        text-align: center;
+        font-size: 18px;
+        width: 70%;
+    }
+    .dayCount_innercontainer{
+        width: 85vw;
+    }
+    .dayCount_innercontainer_sec{
+        height: 25vh;
+    }
+    .checkbox_holder p{
+        margin-top: 0;
+    }
+    .checkbox_holder{
+        width: 32%; 
+        height: 6vh;
+    }
+    .dayCount_innercontainer_sec button{
+        width: 22vw;
+    height: 4.5vh;
+    font-size: 8px;
+    }
+    .optionTag{
+        height: 80%;
+    font-size: 9px;
+    width: 23vw;
+    }
+    .calender_controls option{
+        font-size: 9px;
+        width: 12vw;
+    }
+    .display_count{
+        flex-direction: column;
+        height: 90vh;
+        justify-content: space-evenly;
+    }
+    .display_count_section1{
+        height: 45%;
+    }
+    .display_count_section2{
+        height: 45%;
+        margin-bottom: 5vh;
+    }
+    .dayCount_innercontainer_sec input{
+        height: 25%;
+    }
+    .dayCount_innercontainer_sec button:hover {
+        box-shadow: none;
+        cursor: pointer;
+    }
+    .image_holder_calendar{
+        display: none;
+    }
+    .calender_buttons{
+        height: 18vh;
+    }
+    .checkbox_holder p{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:380px){
+    .display_count{
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+}
